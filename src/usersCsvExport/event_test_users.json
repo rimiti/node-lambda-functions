@@ -1,0 +1,11 @@
+{
+  "dbQuery": "SELECT * FROM db.users;",
+  "bucket": "db.users",
+  "filename": "exportUsers",
+  "email": {
+    "from": "Dim Solution <do-not-reply@dimsolution.com>",
+    "to": "dimitri.dobairro@dimsolution.com",
+    "subject": "User export",
+    "html": "<p>Hello,</p><p>You will find attached file.<br><br></p><small><i>This is an automatically mail, please do not reply.</i></small>"
+  }
+}
