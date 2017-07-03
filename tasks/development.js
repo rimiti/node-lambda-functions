@@ -23,10 +23,6 @@ const paths = {
         src: 'src/config/**/*',
         dist: 'dist/config'
     },
-    certs: {
-        src: 'src/gatewayUplinkReceiver/certs/**/*',
-        dist: 'dist/gatewayUplinkReceiver/certs'
-    },
     locales: {
         src: 'src/locales/**.json',
         dist: 'dist/locales'
@@ -48,7 +44,7 @@ gulp.task('babel:test', ['babel:src', 'clean:test'], () =>
 /**
  * @description Compile es6 files to es5 and put them in dist directory
  */
-gulp.task('babel:src', ['clean:dist', 'babel:config', 'certs'], () =>
+gulp.task('babel:src', ['clean:dist', 'babel:config'], () =>
     gulp.src(paths.js.src)
         .pipe(sourcemaps.init())
         .pipe(babel())
@@ -77,14 +73,6 @@ gulp.task('babel', ['babel:src', 'babel:test'])
 gulp.task('config', ['clean:config'], () => {
     return gulp.src(paths.config.src + '.json')
         .pipe(gulp.dest(paths.config.dist))
-})
-
-/**
- * @description Copy certificates
- */
-gulp.task('certs', () => {
-    return gulp.src(paths.certs.src)
-        .pipe(gulp.dest(paths.certs.dist))
 })
 
 /**
