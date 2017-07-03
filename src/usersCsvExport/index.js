@@ -142,5 +142,5 @@ let handler = (event, context) => {
     })
 }
 
-export {handler as databaseExport}
+export {handler as usersCsvExport}
 
