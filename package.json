@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,14 @@
   "homepage": "https://github.com/rimiti/node-lambda-functions#readme",
   "dependencies": {
     "aws-sdk": "^2.4.0",
+    "json2csv": "^3.4.1",
     "lodash": "^4.3.0",
+    "moment": "^2.13.0",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^2.4.2",
+    "nodemailer-ses-transport": "^1.3.1",
+    "promise-mysql": "^1.3.2",
+    "scp2": "^0.3.0",
     "source-map-support": "^0.4.0"
   },
   "devDependencies": {
