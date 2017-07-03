@@ -38,7 +38,7 @@ const createFunction = () => {
         FunctionName: util.env.functionName,
         Handler: `index.${util.env.functionName}`,
         Role: IAMRole,
-        Runtime: 'nodejs4.3'
+        Runtime: 'nodejs6.1'
       }
       return lambda.createFunction(params).promise()
     }
