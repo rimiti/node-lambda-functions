@@ -1,4 +1,5 @@
-#node-lambda-functions [![Build Status](https://travis-ci.org/rimiti/node-lambda-functions.svg?branch=master)](https://travis-ci.org/rimiti/node-lambda-functions) [![Coverage Status](https://coveralls.io/repos/github/rimiti/node-lambda-functions/badge.svg?branch=master)](https://coveralls.io/github/rimiti/node-lambda-functions?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd)
+# node-lambda-functions [![Build Status](https://travis-ci.org/rimiti/node-lambda-functions.svg?branch=master)](https://travis-ci.org/rimiti/node-lambda-functions) [![Coverage Status](https://coveralls.io/repos/github/rimiti/node-lambda-functions/badge.svg?branch=master)](https://coveralls.io/github/rimiti/node-lambda-functions?branch=master) [![Dependency Status](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd)
+
 Create your own functions and upload them on AWS.
 
 # Install
