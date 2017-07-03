@@ -1,0 +1,51 @@
+{
+  "name": "usersCsvExport",
+  "version": "1.0.0",
+  "description": "Export users from database",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimiti/node-lambda-functions.git"
+  },
+  "keywords": [
+    "node",
+    "aws",
+    "lambda",
+    "functions",
+    "scripts",
+    "project"
+  ],
+  "author": {
+    "name": "Dimitri DO BAIRRO",
+    "email": "dimitri.dobairro@dimsolution.com",
+    "url": "dimsolution.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rimiti/node-lambda-functions/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/rimiti/node-lambda-functions#readme",
+  "dependencies": {
+    "aws-sdk": "^2.4.0",
+    "debug": "^2.2.0",
+    "json2csv": "^3.4.1",
+    "lodash": "^4.13.1",
+    "moment": "^2.14.1",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^2.4.2",
+    "nodemailer-ses-transport": "^1.3.1",
+    "promise-mysql": "^1.3.2",
+    "scp2": "^0.3.0",
+    "source-map-support": "^0.4.0"
+  },
+  "contributors": [
+    "Dimitri Do Bairro <dimitri.dobairro@dimsolution.com> (https://github.com/rimiti)"
+  ]
+}
+
