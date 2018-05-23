@@ -33,8 +33,8 @@
   "homepage": "https://github.com/rimiti/node-lambda-functions#readme",
   "dependencies": {
     "aws-sdk": "^2.4.0",
-    "debug": "^2.2.0",
-    "json2csv": "^3.4.1",
+    "debug": "^3.1.0",
+    "json2csv": "^4.1.2",
     "lodash": "^4.13.1",
     "moment": "^2.14.1",
     "node-mysql": "^0.4.2",
@@ -42,7 +42,7 @@
     "nodemailer-ses-transport": "^1.3.1",
     "promise-mysql": "^3.0.1",
     "scp2": "^0.5.0",
-    "source-map-support": "^0.4.0"
+    "source-map-support": "^0.5.6"
   },
   "contributors": [
     "Dimitri Do Bairro <dimitri.dobairro@dimsolution.com> (https://github.com/rimiti)"
