@@ -1,4 +1,4 @@
-# node-lambda-functions [![Dependency Status](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd)
+# node-lambda-functions [![Dependency Status](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595a15cb6725bd002f1b82bd) [![Greenkeeper badge](https://badges.greenkeeper.io/rimiti/node-lambda-functions.svg)](https://greenkeeper.io/)
 
 Create your own functions and upload them on AWS.
 
